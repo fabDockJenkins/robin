@@ -6,12 +6,12 @@ pipeline {
         echo 'Hello Build'
         echo 'yoo'
       }
+    }
     stage('Test'){
       steps{
         echo 'Hello Test'
         echo 'yaa'
       }
-    }
     }
   }
 }
